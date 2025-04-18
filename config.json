@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+"""
+Configuration file for Nasdaq-100 E-mini Futures Data Agents
+"""
+
+{
+    "data_dir": "data",
+    "live_data_file": "nq_live_data.csv",
+    "historical_data_file": "nq_historical_data.csv",
+    "sources": ["yahoo", "cme", "investing"],
+    "years": 5,
+    "interval": 60,
+    "use_selenium": true,
+    "headless": true,
+    "max_workers": 4,
+    "chunk_size_days": 30
+}
